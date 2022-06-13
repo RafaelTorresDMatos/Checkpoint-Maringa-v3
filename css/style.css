@@ -1,0 +1,83 @@
+/* ALTERACÕES DA PAGINA INTEIRA */
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+.color-a {
+    background-color: #C4C4C4;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h2 {
+    margin-left: 42px;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+nav {
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    padding: 32px;
+    
+
+}
+.logo {
+    border: 1px;
+    border-style: solid;
+    border-radius: 36px;
+    width: 340px;
+    text-align: center;
+    margin: auto;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    margin-bottom: 24px;
+    
+}
+.navlink {
+    border: 1px;
+    border-style: solid;
+    border-radius: 36px;
+    width: 197px;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-inline: auto;
+    margin-bottom: 24px;
+}
+
+
+/* CONTEÚDO */
+
+.text {
+    width: 315px;
+    height: 514px;
+    border-radius: 31px;
+    padding: 20px;
+    margin-inline: auto;
+    margin-bottom: 37px;
+}
+
+/* VÌDEO */
+
+iframe {
+    border-radius: 31px;
+    display: block;
+    margin: auto;
+}
+
+/* RODAPÉ */
+#footer-title {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.sm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
